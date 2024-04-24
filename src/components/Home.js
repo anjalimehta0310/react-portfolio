@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/image1.png";
+// import image from "../assets/image1.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -11,11 +11,11 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="small-screen hidden">
-          <img
-            src={image}
+          {/* <img
+            // src={image}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
+          /> */}
         </div>
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
@@ -42,11 +42,11 @@ const Home = () => {
           </div>
         </div>
         <div className="big-screen">
-          <img
-            src={image}
+          {/* <img
+            // src={image}
             alt="profile"
             className="rounded-3xl mx-auto w-3/4 md:w-full h-auto max-w-4xl"
-          />
+          /> */}
         </div>
         
       </div>
