@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "C:/Users/mayus/Downloads/cv-anjali-mehta-1.pdf",
+      href: "https://drive.google.com/file/d/1WVZ9dUM9vfqBN1RL8CDoc2NxbgkDPt5S/view?usp=drive_link",
       download: true,
     },
    
