@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import intern1 from "../assets/utlits/intern1.jpg";
 import intern2 from "../assets/utlits/intern2.avif";
 
