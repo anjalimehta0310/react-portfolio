@@ -1,6 +1,10 @@
 import React from "react";
 
-function handleSubmit(e){
+function handleSubmit(e) {
+  // Prevents the form from submitting and refreshing the page
+  e.preventDefault();
+
+  // Resets the form after a delay
   setTimeout(() => {
     e.target.reset();
   }, 3000);
@@ -20,13 +24,13 @@ const Contact = () => {
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
         
-        <div className=" flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <form
             onSubmit={handleSubmit}
             name="contact"
             method="POST"
             action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
-            className=" flex flex-col w-full md:w-1/2"
+            className="flex flex-col w-full md:w-1/2"
           >
             <input
               type="text"
